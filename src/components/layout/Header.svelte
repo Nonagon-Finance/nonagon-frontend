@@ -61,7 +61,7 @@
 	}
 
 	img {
-		height: 60px;
+		height: 100px;
 		filter: grayscale(1);
 		opacity: 0.65;
 	}

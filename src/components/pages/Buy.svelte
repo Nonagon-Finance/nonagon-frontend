@@ -189,7 +189,7 @@
 				</div>
 
 				<div class='button-wrap'>
-					<a class='button' href='https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x031d35296154279dc1984dcd93e392b1f946737b' target="_blank">Buy ONA on Uniswap</a>
+					<a class='button' href='https://app.uniswap.org/#/pool/298304?chain=mainnet' target="_blank">Buy ONA on Uniswap</a>
 					<div class='chains'>Set your network to {@html ARBITRUM_ICON} Optimism</div>
 				</div>
 
@@ -217,21 +217,20 @@
 		</div>
 
 		<div class='coin-links'>
-			<a href='https://www.coingecko.com/en/coins/cap' target="_blank">CoinGecko</a>
-			<a href='https://coinmarketcap.com/currencies/cap/' target="_blank">CoinMarketCap</a>
+
 		</div>
 		
 		<div class='community'>
-			<a href='https://discord.gg/zkdr8vnujz' target='_blank' title='Discord'>{@html DISCORD_ICON}</a>
+			<a href='https://discord.gg/vffdT2FcsQ' target='_blank' title='Discord'>{@html DISCORD_ICON}</a>
 			<a href='https://t.me/capfin' target='_blank' title='Telegram'>{@html TELEGRAM_ICON}</a>
-			<a href='https://twitter.com/CapDotFinance' target='_blank' title='Twitter'>{@html TWITTER_ICON}</a>
+			<a href='https://twitter.com/NonagonF' target='_blank' title='Twitter'>{@html TWITTER_ICON}</a>
 			<a href='https://github.com/Nonagon-Finance' target='_blank' title='Github'>{@html GITHUB_ICON}</a>
 		</div>
 
 		<div class='links'>
 			<a href='/'>Home</a>
 			<a href='https://nonagon-finance.gitbook.io/introduction/' target='_blank'>Docs</a>
-			<a href='https://www.tokenterminal.com/terminal/projects/cap' target='_blank'>Token Terminal</a>
+			
 		</div>
 
 	</div>

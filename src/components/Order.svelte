@@ -292,7 +292,7 @@
 	{#if !$address}
 	<div class='note'>Nonagon Finance is an open protocol to trade crypto perpetuals with 0 fees. <a data-intercept="true" on:click={() => {showModal('Connect')}}>Connect your wallet</a> on Optimism to get started.</div>
 	{:else if $address && balance * 1 == 0}
-	<div class='note'><a href='https://nonagon-finance.gitbook.io/introduction/' target='_blank'>Bridge funds</a> to Optimism to start trading.</div>
+	<div class='note'><a href='https://app.optimism.io/bridge' target='_blank'>Bridge funds</a> to Optimism to start trading.</div>
 	{/if}
 	
 

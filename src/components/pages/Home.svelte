@@ -245,15 +245,15 @@
 		<div class='sep'>&nbsp;</div>
 		
 		<div class='community'>
-			<a href='https://discord.gg/zkdr8vnujz' target='_blank' title='Discord'>{@html DISCORD_ICON}</a>
-			<a href='https://twitter.com/CapDotFinance' target='_blank' title='Twitter'>{@html TWITTER_ICON}</a>
+			<a href='https://discord.gg/vffdT2FcsQ' target='_blank' title='Discord'>{@html DISCORD_ICON}</a>
+			<a href='https://twitter.com/NonagonF' target='_blank' title='Twitter'>{@html TWITTER_ICON}</a>
 			<a href='https://github.com/Nonagon-Finance' target='_blank' title='Github'>{@html GITHUB_ICON}</a>
 		</div>
 
 		<div class='links'>
 			<a href='#/buy'>Buy ONA</a>
-			<a href='https://nonagon-finance.gitbook.io/introduction/' target='_blank'>Docs</a>
-			<a href='https://www.tokenterminal.com/terminal/projects/cap' target='_blank'>Token Terminal</a>
+			<a href='https://app.uniswap.org/#/pool/298304?chain=mainnet' target='_blank'>Uniswap ONA pool</a>
+			
 			
 		</div>
 

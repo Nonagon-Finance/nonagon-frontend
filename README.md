@@ -14,6 +14,7 @@ In order to start the dApp on your localhost, run the following commands:
 <br>
 ```yarn build```
 <br>
+<br>
 ```yarn start```
 
 <br>

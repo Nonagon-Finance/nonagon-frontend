@@ -21,4 +21,4 @@ In order to start the dApp on your localhost, run the following commands:
 
 <br>
 <br>
-
+The dApp is accessible on http://localhost:5000/

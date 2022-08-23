@@ -190,7 +190,7 @@
 
 				<div class='button-wrap'>
 					<a class='button' href='https://app.uniswap.org/#/pool/298304?chain=mainnet' target="_blank">Buy ONA on Uniswap</a>
-					<div class='chains'>Set your network to {@html ARBITRUM_ICON} Optimism</div>
+					<div class='chains'>Set your network to Optimism</div>
 				</div>
 
 			</div>

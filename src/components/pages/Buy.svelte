@@ -222,7 +222,6 @@
 		
 		<div class='community'>
 			<a href='https://discord.gg/vffdT2FcsQ' target='_blank' title='Discord'>{@html DISCORD_ICON}</a>
-			<a href='https://t.me/capfin' target='_blank' title='Telegram'>{@html TELEGRAM_ICON}</a>
 			<a href='https://twitter.com/NonagonF' target='_blank' title='Twitter'>{@html TWITTER_ICON}</a>
 			<a href='https://github.com/Nonagon-Finance' target='_blank' title='Github'>{@html GITHUB_ICON}</a>
 		</div>

@@ -190,7 +190,7 @@
 
 				<div class='button-wrap'>
 					<a class='button' href='https://app.uniswap.org/#/pool/298304?chain=mainnet' target="_blank">Buy ONA on Uniswap</a>
-					<div class='chains'>- - - - - The only ONA pool - - - - -</div>
+					<div class='chains'>- - - - - The only ONA pool on Ethereum mainnet - - - - -</div>
 				</div>
 
 			</div>

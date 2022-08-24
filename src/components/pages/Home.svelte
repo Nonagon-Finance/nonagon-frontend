@@ -252,7 +252,7 @@
 
 		<div class='links'>
 			<a href='#/buy'>Buy ONA</a>
-			<a href='https://app.uniswap.org/#/pool/298304?chain=mainnet' target='_blank'>Uniswap ONA pool</a>
+			<a href='https://app.uniswap.org/#/pool/298304?chain=mainnet' target='_blank'>Uniswap ONA pool on Ethereum mainnet</a>
 			
 			
 		</div>

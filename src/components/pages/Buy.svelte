@@ -189,7 +189,7 @@
 				</div>
 
 				<div class='button-wrap'>
-					<a class='button' href='https://app.uniswap.org/#/swap?inputCurrency=0x2a8f808ad38e1ed7693fc9459b2177a1fa4a1fe5&outputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&chain=mainnet' target="_blank">Buy ONA on Uniswap</a>
+					<a class='button' href='https://info.uniswap.org/#/pools/0x2afa26a442b715aa53792c155c41dc7b6d9d1568' target="_blank">Buy ONA on Uniswap</a>
 					<div class='chains'>- - - - - The only ONA pool on Ethereum mainnet - - - - -</div>
 				</div>
 

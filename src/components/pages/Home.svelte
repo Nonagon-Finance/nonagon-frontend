@@ -211,10 +211,7 @@
 					<a class='button' href='#/trade'>Trade</a>
 				</div>
 
-				<div class='volume'>
-					<div class='value'><Volume/></div>
-					<div class='label'>Protocol Volume</div>
-				</div>
+				
 
 			</div>
 

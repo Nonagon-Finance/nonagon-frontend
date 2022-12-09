@@ -158,7 +158,7 @@
 	.asset {
 		display: flex;
 		align-items: center;
-		font-size: 160%;
+		font-size: 100%;
 		font-weight: 600;
 		padding: var(--base-padding);
 	}
@@ -186,8 +186,8 @@
 	}
 
 	.apy .value {
-		font-size: 200%;
-		font-weight: 600;
+		font-size: 50%;
+		font-weight: 200;
 		text-align: left !important;
 	}
 
@@ -215,7 +215,7 @@
 	}
 
 	.sub-label {
-		font-size: 80%;
+		font-size: 50%;
 		opacity: 0.75;
 		margin-bottom: 6px;
 	}
@@ -233,7 +233,7 @@
 	.sep {
 		color: var(--dim-gray);
 		margin: 0 4px;
-		font-size: 85%;
+		font-size: 70%;
 	}
 
 	.loading {
@@ -248,7 +248,7 @@
 
 	.reload {
 		margin-left: 10px;
-		font-size: 85%;
+		font-size: 50%;
 		color: var(--sonic-silver);
 		cursor: pointer;
 	}

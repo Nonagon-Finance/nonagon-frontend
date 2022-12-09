@@ -3,6 +3,9 @@ export const ADDRESS_ZERO = '0x0000000000000000000000000000000000000000';
 export const HISTORY_COUNT = 10;
 
 export const CURRENCY_LOGOS = {
+	snx: '/logos/SNX.png',
+	tusd: '/logos/TUSD.png',
+	wbtc: '/logos/BTC.svg',
 	weth: '/logos/ETH.svg',
 	usdc: '/logos/USDC.svg',
 	cap: '/logos/CAP.jpg'
@@ -76,12 +79,22 @@ export const CHAINDATA = {
 		explorer: 'https://optimistic.etherscan.io/',
 		rpc: 'https://ancient-bitter-knowledge.optimism.quiknode.pro/f1011779dc872773e3081c32c5975361491d748f/', // for walletconnect
 		currencies: {
-			weth: ADDRESS_ZERO,
+			snx: '0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4',
+			tusd: '0x94b008aA00579c1307B0EF2c499aD98a8ce58e58',
+			wbtc: '0x68f180fcCe6836688e9084f035309E29Bf0A2095',
+			weth: ADDRESS_ZERO,			
 			usdc: '0x7F5c764cBc14f9669B88837ca1490cCa17c31607'
+			
+			
+						
+			
 		},
 		poolInception: {
-			weth: 0,
-			usdc: 0,
+			snx: 0,
+			tusd: 0,
+			weth: 0,			
+			usdc: 0,	
+			wbtc: 0,	
 			cap: 0
 		},
 		cap: '0xfa3e7994c2bd7abb3664dd7bee24edc4714cc6ff'

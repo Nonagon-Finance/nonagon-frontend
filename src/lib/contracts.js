@@ -56,7 +56,7 @@ export async function getContract(contractName, withSigner, _currencyLabel) {
 	const currencies = CHAINDATA[_chainId].currencies;
 
 	// Currencies (ERC20)
-	if (!contracts['weth'] || !contracts['usdc']) {	
+	if (!contracts['weth'] || !contracts['snx'] || !contracts['tusd'] || !contracts['wbtc'] || !contracts['usdc']) {	
 		for (const currencyLabel in currencies) {
 			contracts[currencyLabel] = new ethers.Contract(currencies[currencyLabel], ABIS.erc20, _provider);
 		}

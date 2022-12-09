@@ -11,6 +11,7 @@ export function hydrateData() {
 	const _currentPage = get(currentPage);
 
 	// console.log('hydrateData', _currentPage);
+	// DONE WBTC
 
 	if (_currentPage == 'trade') {
 		selectProduct();
@@ -18,8 +19,14 @@ export function hydrateData() {
 		getUserOrders();
 		getUserPositions();
 	} else if (_currentPage == 'pool') {
+		getPoolInfo('snx');
+		getPoolInfo('tusd');
+		getPoolInfo('wbtc');		
 		getPoolInfo('weth');
 		getPoolInfo('usdc');
+		getPoolStats('snx');
+		getPoolStats('tusd');
+		getPoolStats('wbtc');		
 		getPoolStats('weth');
 		getPoolStats('usdc');
 		getCapPoolInfo();

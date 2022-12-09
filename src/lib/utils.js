@@ -44,6 +44,9 @@ export function addrLink(addr) {
 export function formatCurrency(_currencyLabel) {
 	if (!_currencyLabel) return 'ETH';
 	if (_currencyLabel.toLowerCase() == 'weth') return 'ETH';
+	if (_currencyLabel.toLowerCase() == 'snx') return 'SNX';
+	if (_currencyLabel.toLowerCase() == 'tusd') return 'TUSD';
+	if (_currencyLabel.toLowerCase() == 'wbtc') return 'WBTC';
 	if (_currencyLabel.toLowerCase() == 'usdc') return 'USDC';
 	if (_currencyLabel.toLowerCase() == 'cap') return 'ONA';
 	return _currencyLabel;

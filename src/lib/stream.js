@@ -106,13 +106,13 @@ export function initWebsocket() {
 	// Poll
 	clearInterval(poller);
 
-	for (const product_id of ['ETH-USD', 'BTC-USD']) {
+	for (const product_id of ['ETH-USD', 'USDT-USD', 'DOGE-USD', 'SOL-USD', 'LTC-USD', 'LINK-USD', 'ADA-USD', 'ALGO-USD', 'ATOM-USD', 'DOT-USD', 'ICP-USD', 'BCH-USD', 'CRV-USD', 'AAVE-USD', 'XTZ-USD', 'YFI-USD', 'CELO-USD', 'EOS-USD', 'SUSHI-USD', 'BTC-USD']) {
 		getPrice(product_id);
 	}
 
 	// Poll for prices every 5 sec
 	poller = setInterval(() => {
-		for (const product_id of ['ETH-USD', 'BTC-USD']) {
+		for (const product_id of ['ETH-USD', 'USDT-USD', 'DOGE-USD', 'SOL-USD', 'LTC-USD', 'LINK-USD', 'ADA-USD', 'ALGO-USD', 'ATOM-USD', 'DOT-USD', 'ICP-USD', 'BCH-USD', 'CRV-USD', 'AAVE-USD', 'XTZ-USD', 'YFI-USD', 'CELO-USD', 'EOS-USD', 'SUSHI-USD', 'BTC-USD']) {
 			getPrice(product_id);
 		}
 	}, 5000);

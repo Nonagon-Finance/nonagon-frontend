@@ -217,20 +217,21 @@
 
 			<div class='supported'>
 
+				<div class='title'>Traders can LONG or SHORT the following products</div>
 				<div class='content'>
 					{#each Object.entries(PRODUCTS) as [_productId, info]}
 						<img src={info.logo} title={`${_productId}`}>
 					{/each}
 				</div>
-				<div class='title'>Supported Products</div>
-
+<br>
+<br>
+				<div class='title'>Supported collateral</div>
 				<div class='content'>
 					{#each Object.entries(currencies) as [_currencyLabel, info]}
 						<img src={CURRENCY_LOGOS[_currencyLabel]} title={`${formatCurrency(_currencyLabel)}`}>
 					{/each}
 				</div>
-				<div class='title'>Supported Collateral</div>
-
+				
 				<div class='content'>
 				</div>
 				

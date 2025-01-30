@@ -8,7 +8,7 @@ import { getOrders, getPositions } from './methods'
 import { formatUnits, formatTrades, formatOrders, formatPositions, setActiveProducts, getChainData } from './utils'
 import { history, orders, positions, address, poolStats } from './stores'
 
-const graph_url = 'https://api.thegraph.com/subgraphs/name/nedimrenesalis/nonagon';
+const graph_url = '';
 
 export async function getVolume() {
 
